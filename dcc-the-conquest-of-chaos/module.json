@@ -37,7 +37,7 @@
     }
   ],
   "manifest": "https://raw.githubusercontent.com/dragonpeakpublishing/foundry-content/main/dcc-the-conquest-of-chaos/v0.0.1/module.json",
-  "protected": false,
+  "protected": true,
   "packs": [
     {
       "name": "dcc-the-conquest-of-chaos-adventure",
