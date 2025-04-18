@@ -1,0 +1,54 @@
+{
+  "id": "dcc-the-conquest-of-chaos",
+  "title": "The Conquest of Chaos",
+  "description": "The Conquest of Chaos for Foundry VTT",
+  "authors": [
+    {
+      "name": "Stefan Surratt | Foundry Conversion by Tim L. White",
+      "flags": {}
+    }
+  ],
+  "version": "0.0.16",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "styles": [
+    "styles/dcc-the-conquest-of-chaos.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/dragonpeakpublishing/foundry-content/main/dcc-the-conquest-of-chaos/v0.0.16/module.json",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-the-conquest-of-chaos-adventure",
+      "label": "The Conquest of Chaos Adventure",
+      "path": "packs/dcc-the-conquest-of-chaos-adventure",
+      "type": "Adventure",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
